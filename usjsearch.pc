@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/usjsearch
+
+Name: usjsearch
+Description: Map Route Planner using A* Search and others.
+Requires:  gtk+-2.0
+Version: 0.0.1
+Libs: -L${libdir}  -lusjAIL
+Cflags: -I${includedir} 

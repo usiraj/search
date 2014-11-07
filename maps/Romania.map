@@ -1,0 +1,88 @@
+Map Romania sd
+# comment line would be ignored
+# % 
+# $ statename latitude longitude
+# @ action state1 cost state2 cost
+# @ action state1 cost state4 cost
+# %
+# states are defined enclosed in %, anything after % on same line is ignored
+%
+$ Arad 46.1833 21.3167
+@ Go Zerind 75 Sibiu 140 Timisoara 118
+%
+%
+$ Zerind 46.62251 21.51742
+@ Go Arad 75 Oradea 71
+%
+%
+$ Timisoara 45.75978 21.23
+@ Go Arad 118 Lugoj 111
+%
+% 
+$ Lugoj 45.8611 21.9
+@ Go Timisoara 111 Mehadia 70
+%
+%
+$ Mehadia 44.90657 22.36044
+@ Go Lugoj 70 Drobeta 75
+%
+%
+$ Drobeta 44.6311 22.665
+@ Go Mehadia 75 Craiova 120
+%
+%
+$ Craiova 44.3167 23.8
+@ Go Drobeta 120 Pitesti 138 Rimnicu_Vilcea 146
+%
+%
+$ Rimnicu_Vilcea 45.1019 24.3719
+@ Go Sibiu 80 Craiova 146 Pitesti 97
+%
+%
+$ Bucharest 44.4167 26.1
+@ Go Pitesti 101 Fagaras 211 Giurgiu 90 Urziceni 85
+%
+%
+$ Pitesti 44.8567 24.8775
+@ Go Rimnicu_Vilcea 97 Craiova 138 Bucharest 101
+%
+%
+$ Iasi 47.1556 27.5914
+@ Go Neamt 87 Vaslui 92
+%
+%
+$ Vaslui 46.64 27.7333
+@ Go Urziceni 142 Iasi 92
+%
+%
+$ Eforie 44.0667 28.6333
+@ Go Hirsova 86
+%
+%
+$ Hirsova 44.6833 27.9519
+@ Go Eforie 86 Urziceni 98
+%
+%
+$ Urziceni 44.7181 26.6453
+@ Go Vaslui 142 Hirsova 98 Bucharest 85
+%
+%
+$ Giurgiu 43.8992 25.9706
+@ Go Bucharest 85
+%
+%
+$ Sibiu 45.7833 24.1333
+@ Go Arad 140 Oradea 151 Fagaras 99 Rimnicu_Vilcea 80
+%
+%
+$ Fagaras 45.844722 24.974167
+@ Go Sibiu 99 Bucharest 211
+%
+%
+$ Neamt 46.9913 26.4529
+@ Go Iasi 87
+%
+%
+$ Oradea 47.0514 21.9403
+@ Go Zerind 71 Sibiu 151
+%
