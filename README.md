@@ -8,14 +8,23 @@ Requires GTK2 for demo program
 
 ===
 To Install
+
 mkdir build
+
 cd build
+
 cmake ../
+
 make
+
 (And if you want to install)
+
 sudo make install
+
 (After Install clean build folder by)
+
 make clean
+
 ===
 The binary file MapRoutePlanner is a demo app
 Load a *.map file into it in the GUI.
